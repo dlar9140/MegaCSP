@@ -15,6 +15,7 @@
 		6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */; };
 		6AA6DE4621DFC3C60025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4521DFC3C60025FBCF /* ViewController.swift */; };
 		6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4721DFC4820025FBCF /* ViewController.swift */; };
+		6AA6DE4A21DFC57C0025FBCF /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4921DFC57C0025FBCF /* ArtCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractionViewController.swift; path = "../../../../AbstractionApp/AbstractionApp/New Group/AbstractionViewController.swift"; sourceTree = "<group>"; };
 		6AA6DE4521DFC3C60025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Ctec/David Algorithm/David Algorithm/Controller/ViewController.swift"; sourceTree = "<group>"; };
 		6AA6DE4721DFC4820025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../ReadingDataProject/ReadingDataProject/ViewController.swift; sourceTree = "<group>"; };
+		6AA6DE4921DFC57C0025FBCF /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtCollectionViewController.swift; path = ../../../../DrawingProject/DrawingProject/Controller/ArtCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		6AA6DE4221DFC3380025FBCF /* Creativity */ = {
 			isa = PBXGroup;
 			children = (
+				6AA6DE4921DFC57C0025FBCF /* ArtCollectionViewController.swift */,
 			);
 			path = Creativity;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA6DE4A21DFC57C0025FBCF /* ArtCollectionViewController.swift in Sources */,
 				6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */,
 				6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */,
 				6AA6DE2921DFB66D0025FBCF /* ViewController.swift in Sources */,
