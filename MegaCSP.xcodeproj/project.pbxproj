@@ -14,6 +14,7 @@
 		6AA6DE3121DFB6780025FBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA6DE2F21DFB6780025FBCF /* LaunchScreen.storyboard */; };
 		6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */; };
 		6AA6DE4621DFC3C60025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4521DFC3C60025FBCF /* ViewController.swift */; };
+		6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4721DFC4820025FBCF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6AA6DE3221DFB6780025FBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractionViewController.swift; path = "../../../../AbstractionApp/AbstractionApp/New Group/AbstractionViewController.swift"; sourceTree = "<group>"; };
 		6AA6DE4521DFC3C60025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Ctec/David Algorithm/David Algorithm/Controller/ViewController.swift"; sourceTree = "<group>"; };
+		6AA6DE4721DFC4820025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../ReadingDataProject/ReadingDataProject/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		6AA6DE4121DFC32D0025FBCF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				6AA6DE4721DFC4820025FBCF /* ViewController.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */,
 				6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */,
 				6AA6DE2921DFB66D0025FBCF /* ViewController.swift in Sources */,
 				6AA6DE4621DFC3C60025FBCF /* ViewController.swift in Sources */,
