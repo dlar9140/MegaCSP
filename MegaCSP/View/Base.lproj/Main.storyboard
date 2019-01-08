@@ -18,33 +18,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdB-AT-FU7">
-                                <rect key="frame" x="164" y="100" width="46" height="30"/>
+                                <rect key="frame" x="154" y="100" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Algorithm"/>
                                 <connections>
                                     <segue destination="b4T-px-Dzg" kind="show" id="xrr-GH-kiV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV0-jz-dE1">
-                                <rect key="frame" x="164" y="160" width="46" height="30"/>
+                                <rect key="frame" x="147" y="160" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Abstraction"/>
                                 <connections>
                                     <segue destination="Pmg-6q-j7o" kind="show" id="T09-Mg-260"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKu-hG-t2z">
-                                <rect key="frame" x="164" y="220" width="46" height="30"/>
+                                <rect key="frame" x="154" y="220" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Creativity"/>
                                 <connections>
                                     <segue destination="p2C-iF-kM8" kind="show" id="tsa-Zb-hoH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAG-NM-qbE">
-                                <rect key="frame" x="164" y="284" width="46" height="30"/>
+                                <rect key="frame" x="171" y="284" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Data"/>
                                 <connections>
                                     <segue destination="Bdr-wn-Hzl" kind="show" id="2uC-3F-EoH"/>
                                 </connections>
