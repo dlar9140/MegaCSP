@@ -13,8 +13,8 @@
 		6AA6DE2E21DFB6780025FBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA6DE2D21DFB6780025FBCF /* Assets.xcassets */; };
 		6AA6DE3121DFB6780025FBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA6DE2F21DFB6780025FBCF /* LaunchScreen.storyboard */; };
 		6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */; };
-		6AA6DE4621DFC3C60025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4521DFC3C60025FBCF /* ViewController.swift */; };
-		6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4721DFC4820025FBCF /* ViewController.swift */; };
+		6AA6DE4621DFC3C60025FBCF /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4521DFC3C60025FBCF /* AlgorithmViewController.swift */; };
+		6AA6DE4821DFC4820025FBCF /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4721DFC4820025FBCF /* DataViewController.swift */; };
 		6AA6DE4A21DFC57C0025FBCF /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6DE4921DFC57C0025FBCF /* ArtCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 		6AA6DE3021DFB6780025FBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA6DE3221DFB6780025FBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AA6DE4321DFC3630025FBCF /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractionViewController.swift; path = "../../../../AbstractionApp/AbstractionApp/New Group/AbstractionViewController.swift"; sourceTree = "<group>"; };
-		6AA6DE4521DFC3C60025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Ctec/David Algorithm/David Algorithm/Controller/ViewController.swift"; sourceTree = "<group>"; };
-		6AA6DE4721DFC4820025FBCF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../ReadingDataProject/ReadingDataProject/ViewController.swift; sourceTree = "<group>"; };
+		6AA6DE4521DFC3C60025FBCF /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgorithmViewController.swift; path = "../../../../../Ctec/David Algorithm/David Algorithm/Controller/AlgorithmViewController.swift"; sourceTree = "<group>"; };
+		6AA6DE4721DFC4820025FBCF /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = ../../../../ReadingDataProject/ReadingDataProject/DataViewController.swift; sourceTree = "<group>"; };
 		6AA6DE4921DFC57C0025FBCF /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtCollectionViewController.swift; path = ../../../../DrawingProject/DrawingProject/Controller/ArtCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,7 @@
 		6AA6DE4021DFC31F0025FBCF /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				6AA6DE4521DFC3C60025FBCF /* ViewController.swift */,
+				6AA6DE4521DFC3C60025FBCF /* AlgorithmViewController.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 		6AA6DE4121DFC32D0025FBCF /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6AA6DE4721DFC4820025FBCF /* ViewController.swift */,
+				6AA6DE4721DFC4820025FBCF /* DataViewController.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -212,10 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AA6DE4A21DFC57C0025FBCF /* ArtCollectionViewController.swift in Sources */,
-				6AA6DE4821DFC4820025FBCF /* ViewController.swift in Sources */,
+				6AA6DE4821DFC4820025FBCF /* DataViewController.swift in Sources */,
 				6AA6DE4421DFC3630025FBCF /* AbstractionViewController.swift in Sources */,
 				6AA6DE2921DFB66D0025FBCF /* ViewController.swift in Sources */,
-				6AA6DE4621DFC3C60025FBCF /* ViewController.swift in Sources */,
+				6AA6DE4621DFC3C60025FBCF /* AlgorithmViewController.swift in Sources */,
 				6AA6DE2721DFB66D0025FBCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MegaCSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MegaCSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
