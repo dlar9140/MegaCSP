@@ -61,7 +61,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="l1a-Sk-N79">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Pmg-6q-j7o" customClass="AbstractionViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Pmg-6q-j7o" customClass="AbstractionViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gzv-wC-q0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3866" y="88"/>
@@ -97,7 +97,7 @@
         <!--BlockViewController-->
         <scene sceneID="VNK-FU-oqW">
             <objects>
-                <viewController storyboardIdentifier="BlockViewController" title="BlockViewController" id="Hst-K2-2VZ" customClass="ViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="BlockViewController" id="Hst-K2-2VZ" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G91-7g-NTS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +125,7 @@
         <!--ByteCodeViewController-->
         <scene sceneID="ncn-0n-sap">
             <objects>
-                <viewController storyboardIdentifier="ByteCodeViewController" title="ByteCodeViewController" id="jD0-iP-y0f" customClass="ViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteCodeViewController" title="ByteCodeViewController" id="jD0-iP-y0f" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sJj-Jq-wO0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,7 +153,7 @@
         <!--BinaryViewController-->
         <scene sceneID="pX3-ya-84k">
             <objects>
-                <viewController storyboardIdentifier="BinaryViewController" title="BinaryViewController" id="2hk-sG-UM4" customClass="ViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" title="BinaryViewController" id="2hk-sG-UM4" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2O3-uP-awJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,7 +181,7 @@
         <!--LogicalGateViewController-->
         <scene sceneID="mgs-V5-6V3">
             <objects>
-                <viewController storyboardIdentifier="LogicalGateViewController" title="LogicalGateViewController" id="cUS-KQ-rCT" customClass="ViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogicalGateViewController" title="LogicalGateViewController" id="cUS-KQ-rCT" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qiV-to-CmL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,7 +209,7 @@
         <!--View Controller-->
         <scene sceneID="Hce-9v-igR">
             <objects>
-                <viewController id="b4T-px-Dzg" customClass="ViewController" customModule="David_Algorithm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="b4T-px-Dzg" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3NZ-Gr-nJk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -247,7 +247,7 @@
         <!--View Controller-->
         <scene sceneID="c5q-he-1Od">
             <objects>
-                <viewController id="Bdr-wn-Hzl" customClass="ViewController" customModule="ReadingDataProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Bdr-wn-Hzl" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JZe-z3-ZNd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -262,7 +262,7 @@
         <!--View Controller-->
         <scene sceneID="Rvt-bf-oMX">
             <objects>
-                <viewController id="p2C-iF-kM8" customClass="ViewController" customModule="DrawingProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="p2C-iF-kM8" customClass="ViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wpe-nJ-n9A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,7 +275,7 @@
                                     <segue destination="vEe-HH-ezD" kind="show" id="EM1-iP-BWT"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRB-C0-Ft2" userLabel="Drawing View" customClass="DrawingView" customModule="DrawingProject" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRB-C0-Ft2" userLabel="Drawing View" customClass="DrawingView" customModule="MegaCSP" customModuleProvider="target">
                                 <rect key="frame" x="33" y="59" width="307" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1051157633" green="0.61302551620000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -292,7 +292,7 @@
         <!--Art Collection View Controller-->
         <scene sceneID="G0q-Jw-8Qi">
             <objects>
-                <collectionViewController id="vEe-HH-ezD" customClass="ArtCollectionViewController" customModule="DrawingProject" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="vEe-HH-ezD" customClass="ArtCollectionViewController" customModule="MegaCSP" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="4Vm-3Z-uHc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,7 +304,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="dhO-qI-4Pd" userLabel="ArtIdentifier" customClass="ArtCell" customModule="DrawingProject" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="dhO-qI-4Pd" userLabel="ArtIdentifier" customClass="ArtCell" customModule="MegaCSP" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
